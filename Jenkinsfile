@@ -1,9 +1,9 @@
-ef protectedBranches = ['main']
+def protectedBranches = ['main']
 def projectName='Test'
 
 pipeline {
   agent {
-        label 'checkingIS38992'
+        label 'checkingIS38992'   
     }
     
   environment {
